@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Galería de Imágenes</h1>
+        
+        <!-- SECCIÓN DE CONTROLES -->
+        <div class="controles">
+            <div class="input-grupo">
+                <input 
+                    type="url" 
+                    id="urlImagen" 
+                    placeholder="Ingresa la URL de una imagen..."
+                >
+                <button id="btnAgregar"> Agregar Imagen</button>
+                <button id="btnEliminar" disabled> Eliminar Seleccionada</button>
+            </div>
+            
+        </div>
+
+        <!-- GALERÍA -->
+        <div class="galeria" id="galeria">
+            <div class="galeria-vacia">
+           
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
