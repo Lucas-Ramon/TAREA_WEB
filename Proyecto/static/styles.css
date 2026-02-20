@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #6A5ACD, #00CED1); /* degradado morado-azul */
+    color: white;
+    padding: 1.5rem;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header-left p {
+    margin: 0.3rem 0 0;
+    font-size: 1rem;
+    color: #e0ffff;
+}
+
+/* Menú de navegación */
+.header-right nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-right nav ul li {
+    margin-left: 1rem;
+}
+
+.header-right nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.header-right nav ul li a:hover {
+    background-color: #483D8B; /* morado oscuro */
+    color: #fff;
+}
+
+/* Contenido principal */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    position: fixed;   /* fijo en la parte inferior */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;  /* alineado a la izquierda */
+}
